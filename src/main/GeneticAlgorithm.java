@@ -1,185 +1,144 @@
 package main;
 
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Random;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
-public abstract class GeneticAlgorithm {
+public class GeneticAlgorithm {
 
-    private List<Chromosome> population = new ArrayList<Chromosome>();
-    private int popSize = 100;
-    private int geneSize = 50;
-    private int maxIterNum = 500;
-    private double mutationRate = 0.01;
-    private int maxMutationNum = 3;
+    public static int popSize = 1000;
+    public static int geneSize = 30;
+    public static int geneRange = 1000;
+    public static int maxIterNum = 1000;
+    public static int stableGeneration = 30;
+    public static double crossoverRate = 0.8;
+    public static double mutationRate = 0.1;
 
-    private int generation = 1;
-
-    private double bestScore;
-    private double worstScore;
-    private double totalScore;
-    private double avgScore;
-
-    private double x;
-    private double y;
-    private int geneI;
 
     public GeneticAlgorithm(int geneSize) {
         this.geneSize = geneSize;
     }
 
-    public void caculate() {
-        generation = 1;
-        init();
-        while (generation < maxIterNum) {
-            evolve();
-            display();
-            generation++;
+
+    public static ArrayList<Gene> cities = GeneticAlgorithm.generateCities();
+
+    public GeneticAlgorithm() {
+
+    }
+
+    public static ArrayList<Gene> generateCities() {
+        Random rand = new Random(100);
+
+        ArrayList<Gene> cities = new ArrayList<Gene>();
+        for (int i = 0; i < geneSize; i++) {
+            int randx = rand.nextInt(geneRange);
+            int randy = rand.nextInt(geneRange);
+            int id = i + 1;       //set id for each city
+            cities.add(new Gene(id, randx, randy));
         }
+
+        return cities;
     }
 
-    private void display() {
-        System.out.println("--------------------------------");
-        System.out.println("the generation is:" + generation);
-        System.out.println("the best y is:" + bestScore);
-        System.out.println("the worst fitness is:" + worstScore);
-        System.out.println("the average fitness is:" + avgScore);
-        System.out.println("the total fitness is:" + totalScore);
-        System.out.println("geneI:" + geneI + "\tx:" + x + "\ty:" + y);
-    }
+    public static void logging() throws IOException {
+        Logger log = Logger.getLogger("tsp");
+        log.setLevel(Level.INFO);
+        FileHandler fileHandler = new FileHandler("EvolutionTrack.log");
+        fileHandler.setLevel(Level.INFO);
+        log.setUseParentHandlers(false);
+        log.addHandler(fileHandler);
 
-    private void evolve() {
-        List<Chromosome> childPopulation = new ArrayList<Chromosome>();
-        while (childPopulation.size() < popSize) {
-            Chromosome p1 = inheritParentChromosome();
-            Chromosome p2 = inheritParentChromosome();
-            List<Chromosome> children = Chromosome.genetic(p1, p2);
-            if (children != null) {
-                for (Chromosome chro : children) {
-                    childPopulation.add(chro);
+        Population p = new Population(popSize);
+        double minDistance = Double.MAX_VALUE;
+        int changeTime = 0;
+        String ss = null;
+        String bestgeneration =null;
+
+        for (int i = 0; i < maxIterNum && changeTime < stableGeneration; i++) {
+            p.evolution();
+            String currentgeneration = String.valueOf(i);
+
+            StringBuffer sb = new StringBuffer();
+            StringBuffer bestRoute = new StringBuffer();
+
+
+            double currentBest = p.getBestRoute(p.population).routeDistance();
+            if (currentBest < minDistance) {
+
+                for (int j = 0; j < geneSize; j++) {
+                    bestRoute.append(p.getBestRoute(p.population).route.get(j).getId() + "-");
                 }
+                bestRoute.append(p.getBestRoute(p.population).route.get(0).getId());
+
+                ss = bestRoute.toString();
+                bestgeneration=String.valueOf(i);
+
+                minDistance = currentBest;
+                changeTime = 0;
+            } else {
+                changeTime++;
             }
-        }
-        //new population replace old one
-        List<Chromosome> t = population;
-        population = childPopulation;
-        t.clear();
-        t = null;
-
-        //genetic mutaiton in new population
-        mutation();
-        //calculate the fitness of new population
-        caculateScore();
-    }
-
-    private void mutation() {
-        for (Chromosome chro : population) {
-            if (Math.random() < mutationRate) {
-                int mutationNum = (int) (Math.random() * maxMutationNum);
-                chro.mutation(mutationNum);
+            String finalDistance = String.valueOf(minDistance);
+            String bestDistance = String.valueOf(p.getBestRoute(p.population).routeDistance());
+            for (int j = 0; j < geneSize; j++) {
+                sb.append(p.getBestRoute(p.population).route.get(j).getId() + "-");
             }
+            sb.append(p.getBestRoute(p.population).route.get(0).getId());
+            log.info("The " + currentgeneration + " generation. Current bestRoute is: " + sb.toString() + " Best Distance is " + bestDistance);
+            log.info("The best route in history: " + bestgeneration + " generation. " + ss+" The best distance in history: " + finalDistance);
+
         }
+
     }
 
-    private Chromosome inheritParentChromosome() {
-        double slice = Math.random() * totalScore;
-        double sum = 0;
-        for (Chromosome chro : population) {
-            sum += chro.getScore();
-            if (sum > slice && chro.getScore() >= avgScore) {
-                return chro;
-            }
-        }
-        return null;
-    }
+    public static void main(String[] args) throws IOException {
 
-    private void init() {
-        for (int i = 0; i < popSize; i++) {
-            population = new ArrayList<Chromosome>();
-            Chromosome chro = new Chromosome(geneSize);
-            population.add(chro);
-        }
-        caculateScore();
-    }
+        logging();
 
-    private void caculateScore() {
-        chromosomeScore(population.get(0));
-        bestScore = population.get(0).getScore();
-        worstScore = population.get(0).getScore();
-        totalScore = 0;
-        for (Chromosome chro : population) {
-            chromosomeScore(chro);
-            if (chro.getScore() > bestScore) {
-                bestScore = chro.getScore();
-                if (y < bestScore) {
-                    x = changeX(chro);
-                    y = bestScore;
-                    geneI = generation;
+        Population p = new Population(popSize);
+        double minDistance = Double.MAX_VALUE;
+        int changeTime = 0;
+        String ss = null;
+        String bestgeneration = null;
+
+        for (int i = 0; i < maxIterNum && changeTime < stableGeneration; i++) {
+            p.evolution();
+            String currentgeneration = String.valueOf(i);
+
+            StringBuffer sb = new StringBuffer();
+            StringBuffer bestRoute = new StringBuffer();
+
+
+            double currentBest = p.getBestRoute(p.population).routeDistance();
+            if (currentBest < minDistance) {
+
+                for (int j = 0; j < geneSize; j++) {
+                    bestRoute.append(p.getBestRoute(p.population).route.get(j).getId() + "-");
                 }
+                bestRoute.append(p.getBestRoute(p.population).route.get(0).getId());
+
+                ss = bestRoute.toString();
+                bestgeneration = String.valueOf(i);
+
+                minDistance = currentBest;
+                changeTime = 0;
+            } else {
+                changeTime++;
             }
-            if (chro.getScore() < worstScore) {
-                worstScore = chro.getScore();
+            String finalDistance = String.valueOf(minDistance);
+            String bestDistance = String.valueOf(p.getBestRoute(p.population).routeDistance());
+            for (int j = 0; j < geneSize; j++) {
+                sb.append(p.getBestRoute(p.population).route.get(j).getId() + "-");
             }
-            totalScore += chro.getScore();
+            sb.append(p.getBestRoute(p.population).route.get(0).getId());
+            System.out.println("The " + currentgeneration + " generation. Current bestDistance is " + bestDistance);
+            System.out.println("Curren bestRoute is: "+sb.toString());
+            System.out.println("Best route in history: " + bestgeneration + " generation. Best distance in history: " + finalDistance);
+            System.out.println("Best route in history is "+ss);
         }
-        avgScore = totalScore / popSize;
-        avgScore = avgScore > bestScore ? bestScore : avgScore;
     }
 
-    public abstract double changeX(Chromosome chro);
-    public abstract  double caculateY(double x);
-
-    private void chromosomeScore(Chromosome chro) {
-        if (chro == null) return;
-        double x = changeX(chro);
-        double y = caculateY(x);
-        chro.setScore(y);
-    }
-
-    public void setPopulation(List<Chromosome> population) {
-        this.population = population;
-    }
-
-    public void setPopSize(int popSize) {
-        this.popSize = popSize;
-    }
-
-    public void setGeneSize(int geneSize) {
-        this.geneSize = geneSize;
-    }
-
-    public void setMaxIterNum(int maxIterNum) {
-        this.maxIterNum = maxIterNum;
-    }
-
-    public void setMutationRate(double mutationRate) {
-        this.mutationRate = mutationRate;
-    }
-
-    public void setMaxMutationNum(int maxMutationNum) {
-        this.maxMutationNum = maxMutationNum;
-    }
-
-    public double getBestScore() {
-        return bestScore;
-    }
-
-    public double getWorstScore() {
-        return worstScore;
-    }
-
-    public double getTotalScore() {
-        return totalScore;
-    }
-
-    public double getAvgScore() {
-        return avgScore;
-    }
-
-    public double getX() {
-        return x;
-    }
-
-    public double getY() {
-        return y;
-    }
 }
