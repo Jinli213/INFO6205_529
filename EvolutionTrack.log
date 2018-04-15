@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-04-15T18:53:46</date>
+  <millis>1523832826612</millis>
+  <sequence>0</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 0 generation. Current bestRoute is: 28-5-7-17-19-10-3-30-11-20-21-9-4-8-6-14-26-24-13-1-15-22-16-12-25-29-18-23-2-27-28 Best Distance is 13926.536225340813</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:46</date>
+  <millis>1523832826638</millis>
+  <sequence>1</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 0 generation. 28-5-7-17-19-10-3-30-11-20-21-9-4-8-6-14-26-24-13-1-15-22-16-12-25-29-18-23-2-27-28 The best distance in history: 13926.536225340813</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:47</date>
+  <millis>1523832827427</millis>
+  <sequence>2</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 1 generation. Current bestRoute is: 26-22-30-12-9-3-5-16-7-29-4-11-21-18-17-15-25-27-10-28-6-14-24-19-2-8-13-1-23-20-26 Best Distance is 14011.700538130066</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:47</date>
+  <millis>1523832827427</millis>
+  <sequence>3</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 0 generation. 28-5-7-17-19-10-3-30-11-20-21-9-4-8-6-14-26-24-13-1-15-22-16-12-25-29-18-23-2-27-28 The best distance in history: 13926.536225340813</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:48</date>
+  <millis>1523832828155</millis>
+  <sequence>4</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 2 generation. Current bestRoute is: 5-1-7-29-4-11-26-21-18-17-3-15-22-25-6-16-19-10-30-24-8-20-2-27-9-13-28-23-12-14-5 Best Distance is 12402.84983355385</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:48</date>
+  <millis>1523832828155</millis>
+  <sequence>5</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 2 generation. 5-1-7-29-4-11-26-21-18-17-3-15-22-25-6-16-19-10-30-24-8-20-2-27-9-13-28-23-12-14-5 The best distance in history: 12402.84983355385</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:48</date>
+  <millis>1523832828925</millis>
+  <sequence>6</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 3 generation. Current bestRoute is: 23-18-15-22-7-13-30-6-27-2-11-28-3-29-19-5-17-4-25-20-21-8-1-12-9-26-24-14-10-16-23 Best Distance is 13354.49305031446</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:48</date>
+  <millis>1523832828925</millis>
+  <sequence>7</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 2 generation. 5-1-7-29-4-11-26-21-18-17-3-15-22-25-6-16-19-10-30-24-8-20-2-27-9-13-28-23-12-14-5 The best distance in history: 12402.84983355385</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:49</date>
+  <millis>1523832829604</millis>
+  <sequence>8</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 4 generation. Current bestRoute is: 27-13-15-9-3-5-6-22-7-26-4-29-25-21-23-18-16-12-19-10-1-17-30-24-8-28-11-2-14-20-27 Best Distance is 12055.401542249578</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:49</date>
+  <millis>1523832829604</millis>
+  <sequence>9</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 4 generation. 27-13-15-9-3-5-6-22-7-26-4-29-25-21-23-18-16-12-19-10-1-17-30-24-8-28-11-2-14-20-27 The best distance in history: 12055.401542249578</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:50</date>
+  <millis>1523832830222</millis>
+  <sequence>10</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 5 generation. Current bestRoute is: 19-26-5-28-2-25-23-4-22-12-27-30-9-20-24-8-18-17-6-21-13-16-1-29-15-14-7-3-11-10-19 Best Distance is 12902.348144556323</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:50</date>
+  <millis>1523832830222</millis>
+  <sequence>11</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 4 generation. 27-13-15-9-3-5-6-22-7-26-4-29-25-21-23-18-16-12-19-10-1-17-30-24-8-28-11-2-14-20-27 The best distance in history: 12055.401542249578</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:50</date>
+  <millis>1523832830892</millis>
+  <sequence>12</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 6 generation. Current bestRoute is: 28-27-13-14-1-30-19-18-11-8-7-26-21-20-29-24-9-4-10-23-17-6-16-22-15-3-25-5-12-2-28 Best Distance is 11291.712374064236</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:50</date>
+  <millis>1523832830903</millis>
+  <sequence>13</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 6 generation. 28-27-13-14-1-30-19-18-11-8-7-26-21-20-29-24-9-4-10-23-17-6-16-22-15-3-25-5-12-2-28 The best distance in history: 11291.712374064236</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:51</date>
+  <millis>1523832831534</millis>
+  <sequence>14</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 7 generation. Current bestRoute is: 23-15-21-13-14-19-11-30-5-27-1-29-26-7-4-8-22-10-12-28-3-17-25-24-6-18-16-2-9-20-23 Best Distance is 12430.141548250043</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:51</date>
+  <millis>1523832831535</millis>
+  <sequence>15</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 6 generation. 28-27-13-14-1-30-19-18-11-8-7-26-21-20-29-24-9-4-10-23-17-6-16-22-15-3-25-5-12-2-28 The best distance in history: 11291.712374064236</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:52</date>
+  <millis>1523832832255</millis>
+  <sequence>16</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 8 generation. Current bestRoute is: 28-12-27-13-29-10-1-22-4-7-26-11-14-17-16-20-6-25-2-18-15-21-23-9-5-3-8-30-24-19-28 Best Distance is 11290.374149275423</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:52</date>
+  <millis>1523832832255</millis>
+  <sequence>17</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 8 generation. 28-12-27-13-29-10-1-22-4-7-26-11-14-17-16-20-6-25-2-18-15-21-23-9-5-3-8-30-24-19-28 The best distance in history: 11290.374149275423</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:52</date>
+  <millis>1523832832838</millis>
+  <sequence>18</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 9 generation. Current bestRoute is: 22-8-30-14-1-20-12-23-4-3-7-24-29-9-21-19-16-27-2-5-28-13-25-11-26-18-6-17-10-15-22 Best Distance is 10649.637943512715</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:52</date>
+  <millis>1523832832838</millis>
+  <sequence>19</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 9 generation. 22-8-30-14-1-20-12-23-4-3-7-24-29-9-21-19-16-27-2-5-28-13-25-11-26-18-6-17-10-15-22 The best distance in history: 10649.637943512715</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:53</date>
+  <millis>1523832833442</millis>
+  <sequence>20</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 10 generation. Current bestRoute is: 10-21-7-29-22-8-26-19-2-16-14-13-30-24-3-25-17-12-20-11-27-5-28-6-15-4-23-18-9-1-10 Best Distance is 9658.788066486866</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:53</date>
+  <millis>1523832833456</millis>
+  <sequence>21</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 10 generation. 10-21-7-29-22-8-26-19-2-16-14-13-30-24-3-25-17-12-20-11-27-5-28-6-15-4-23-18-9-1-10 The best distance in history: 9658.788066486866</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:53</date>
+  <millis>1523832833981</millis>
+  <sequence>22</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 11 generation. Current bestRoute is: 24-20-3-9-7-22-29-18-6-26-8-21-10-13-5-2-25-12-17-11-1-14-16-30-27-15-28-19-23-4-24 Best Distance is 11859.603820835568</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:53</date>
+  <millis>1523832833981</millis>
+  <sequence>23</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 10 generation. 10-21-7-29-22-8-26-19-2-16-14-13-30-24-3-25-17-12-20-11-27-5-28-6-15-4-23-18-9-1-10 The best distance in history: 9658.788066486866</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:54</date>
+  <millis>1523832834561</millis>
+  <sequence>24</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 12 generation. Current bestRoute is: 13-12-2-16-25-6-26-28-20-15-23-3-4-9-5-27-17-18-21-19-10-1-11-29-24-14-30-8-7-22-13 Best Distance is 11076.778229353778</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:54</date>
+  <millis>1523832834561</millis>
+  <sequence>25</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 10 generation. 10-21-7-29-22-8-26-19-2-16-14-13-30-24-3-25-17-12-20-11-27-5-28-6-15-4-23-18-9-1-10 The best distance in history: 9658.788066486866</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:55</date>
+  <millis>1523832835194</millis>
+  <sequence>26</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 13 generation. Current bestRoute is: 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 Best Distance is 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:55</date>
+  <millis>1523832835194</millis>
+  <sequence>27</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:55</date>
+  <millis>1523832835940</millis>
+  <sequence>28</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 14 generation. Current bestRoute is: 18-19-6-12-15-26-23-2-16-27-5-13-17-28-9-30-24-21-7-22-29-4-1-3-14-11-8-10-20-25-18 Best Distance is 10251.934593295286</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:55</date>
+  <millis>1523832835940</millis>
+  <sequence>29</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:56</date>
+  <millis>1523832836528</millis>
+  <sequence>30</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 15 generation. Current bestRoute is: 28-20-6-23-26-21-22-4-29-18-10-5-2-15-25-3-1-11-7-24-8-19-30-14-16-27-13-9-17-12-28 Best Distance is 10990.393995799599</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:56</date>
+  <millis>1523832836528</millis>
+  <sequence>31</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:57</date>
+  <millis>1523832837209</millis>
+  <sequence>32</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 16 generation. Current bestRoute is: 21-3-7-24-26-10-1-19-30-6-15-29-4-22-14-13-12-2-5-17-9-25-16-28-27-20-8-23-18-11-21 Best Distance is 10858.362007910502</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:57</date>
+  <millis>1523832837209</millis>
+  <sequence>33</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:57</date>
+  <millis>1523832837737</millis>
+  <sequence>34</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 17 generation. Current bestRoute is: 3-7-24-22-29-8-11-30-26-10-14-1-17-5-6-2-25-18-12-27-20-9-16-23-21-15-4-19-28-13-3 Best Distance is 10633.728637124173</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:57</date>
+  <millis>1523832837737</millis>
+  <sequence>35</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:58</date>
+  <millis>1523832838334</millis>
+  <sequence>36</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 18 generation. Current bestRoute is: 21-23-22-4-7-26-20-9-12-25-11-1-14-16-2-5-19-27-28-17-6-3-24-29-8-30-15-13-18-10-21 Best Distance is 10499.335974115538</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:58</date>
+  <millis>1523832838334</millis>
+  <sequence>37</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:58</date>
+  <millis>1523832838903</millis>
+  <sequence>38</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 19 generation. Current bestRoute is: 29-4-17-21-23-6-2-25-15-9-18-3-16-5-27-12-26-20-7-24-11-1-28-8-10-22-14-13-30-19-29 Best Distance is 11941.06229394766</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:58</date>
+  <millis>1523832838903</millis>
+  <sequence>39</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:59</date>
+  <millis>1523832839395</millis>
+  <sequence>40</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 20 generation. Current bestRoute is: 14-17-25-29-19-26-10-11-28-6-18-20-2-16-5-27-13-12-3-22-4-21-7-24-8-1-15-23-30-9-14 Best Distance is 11014.81605717661</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:59</date>
+  <millis>1523832839395</millis>
+  <sequence>41</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:59</date>
+  <millis>1523832839950</millis>
+  <sequence>42</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 21 generation. Current bestRoute is: 29-4-8-24-10-3-26-7-22-15-18-23-19-16-2-25-12-11-5-13-14-1-6-28-20-21-17-27-30-9-29 Best Distance is 9802.365227859485</message>
+</record>
+<record>
+  <date>2018-04-15T18:53:59</date>
+  <millis>1523832839950</millis>
+  <sequence>43</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:00</date>
+  <millis>1523832840699</millis>
+  <sequence>44</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 22 generation. Current bestRoute is: 5-27-13-4-22-21-18-25-1-10-14-26-9-24-29-23-17-12-28-30-11-19-7-15-2-16-8-20-6-3-5 Best Distance is 11170.095929344192</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:00</date>
+  <millis>1523832840700</millis>
+  <sequence>45</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:01</date>
+  <millis>1523832841358</millis>
+  <sequence>46</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 23 generation. Current bestRoute is: 24-4-22-29-8-11-9-14-19-21-15-30-2-16-1-10-5-27-17-23-18-12-3-7-26-20-6-25-28-13-24 Best Distance is 10374.824819243784</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:01</date>
+  <millis>1523832841359</millis>
+  <sequence>47</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:01</date>
+  <millis>1523832841931</millis>
+  <sequence>48</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 24 generation. Current bestRoute is: 4-22-1-13-20-14-27-26-11-30-28-16-2-23-15-21-12-5-6-17-25-3-7-9-24-29-8-19-18-10-4 Best Distance is 11069.447371066426</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:01</date>
+  <millis>1523832841931</millis>
+  <sequence>49</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 13 generation. 5-27-2-28-12-11-16-17-1-13-19-7-26-18-3-15-22-25-6-10-14-20-30-8-24-23-29-4-9-21-5 The best distance in history: 9636.58430545347</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:02</date>
+  <millis>1523832842558</millis>
+  <sequence>50</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 25 generation. Current bestRoute is: 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 Best Distance is 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:02</date>
+  <millis>1523832842558</millis>
+  <sequence>51</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 25 generation. 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 The best distance in history: 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:03</date>
+  <millis>1523832843156</millis>
+  <sequence>52</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 26 generation. Current bestRoute is: 1-17-28-5-2-15-29-4-22-27-21-18-19-12-24-16-13-3-20-6-25-11-23-7-8-30-10-14-26-9-1 Best Distance is 12635.898035135908</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:03</date>
+  <millis>1523832843156</millis>
+  <sequence>53</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 25 generation. 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 The best distance in history: 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:03</date>
+  <millis>1523832843721</millis>
+  <sequence>54</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 27 generation. Current bestRoute is: 1-28-2-18-19-13-14-20-3-25-6-23-15-21-29-11-27-12-16-17-5-7-10-30-26-9-8-22-4-24-1 Best Distance is 10680.255455405813</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:03</date>
+  <millis>1523832843721</millis>
+  <sequence>55</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 25 generation. 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 The best distance in history: 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:04</date>
+  <millis>1523832844390</millis>
+  <sequence>56</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 28 generation. Current bestRoute is: 21-3-23-4-7-24-22-26-9-12-25-18-11-30-28-16-2-6-20-19-1-27-13-17-5-14-10-8-15-29-21 Best Distance is 9417.359796585799</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:04</date>
+  <millis>1523832844390</millis>
+  <sequence>57</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 25 generation. 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 The best distance in history: 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:05</date>
+  <millis>1523832845092</millis>
+  <sequence>58</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 29 generation. Current bestRoute is: 14-20-3-23-18-22-4-11-19-8-10-1-12-28-16-2-27-29-5-13-9-15-24-26-21-25-30-6-17-7-14 Best Distance is 11952.019078447633</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:05</date>
+  <millis>1523832845092</millis>
+  <sequence>59</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 25 generation. 3-28-27-16-2-17-13-6-25-8-30-7-29-22-20-26-21-23-18-12-1-10-11-5-14-4-24-19-9-15-3 The best distance in history: 9322.96242463157</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:05</date>
+  <millis>1523832845846</millis>
+  <sequence>60</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 30 generation. Current bestRoute is: 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 Best Distance is 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:05</date>
+  <millis>1523832845847</millis>
+  <sequence>61</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:06</date>
+  <millis>1523832846552</millis>
+  <sequence>62</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 31 generation. Current bestRoute is: 10-1-14-27-15-3-11-26-21-7-17-23-18-25-13-28-5-29-19-12-6-16-2-9-8-30-20-22-4-24-10 Best Distance is 10259.961726805117</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:06</date>
+  <millis>1523832846552</millis>
+  <sequence>63</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:07</date>
+  <millis>1523832847273</millis>
+  <sequence>64</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 32 generation. Current bestRoute is: 13-28-5-11-9-18-20-19-29-4-3-23-7-24-22-17-27-26-10-1-14-2-8-6-25-12-16-30-15-21-13 Best Distance is 11784.252573350757</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:07</date>
+  <millis>1523832847273</millis>
+  <sequence>65</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:07</date>
+  <millis>1523832847861</millis>
+  <sequence>66</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 33 generation. Current bestRoute is: 13-6-5-3-19-10-1-28-27-17-2-16-20-15-9-26-21-11-18-7-25-12-8-30-14-29-22-4-24-23-13 Best Distance is 10055.648463415342</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:07</date>
+  <millis>1523832847865</millis>
+  <sequence>67</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:08</date>
+  <millis>1523832848526</millis>
+  <sequence>68</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 34 generation. Current bestRoute is: 15-23-2-25-19-4-8-24-26-3-30-11-28-27-16-1-14-10-5-17-20-12-7-18-21-29-6-9-22-13-15 Best Distance is 11312.475938800308</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:08</date>
+  <millis>1523832848526</millis>
+  <sequence>69</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:09</date>
+  <millis>1523832849287</millis>
+  <sequence>70</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 35 generation. Current bestRoute is: 11-9-26-25-21-19-20-12-5-13-14-10-28-17-6-18-8-30-24-4-22-29-3-15-23-7-2-16-1-27-11 Best Distance is 9008.94123100433</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:09</date>
+  <millis>1523832849287</millis>
+  <sequence>71</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:09</date>
+  <millis>1523832849995</millis>
+  <sequence>72</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 36 generation. Current bestRoute is: 12-16-5-13-19-18-20-30-7-6-26-8-1-14-10-21-4-22-24-9-29-3-15-23-27-25-2-28-11-17-12 Best Distance is 10329.002319901056</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:09</date>
+  <millis>1523832849995</millis>
+  <sequence>73</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:10</date>
+  <millis>1523832850733</millis>
+  <sequence>74</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 37 generation. Current bestRoute is: 3-9-27-17-2-16-12-14-13-6-22-8-30-4-26-19-15-1-10-5-11-28-25-29-24-21-23-18-7-20-3 Best Distance is 10844.43287873267</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:10</date>
+  <millis>1523832850733</millis>
+  <sequence>75</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:11</date>
+  <millis>1523832851485</millis>
+  <sequence>76</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 38 generation. Current bestRoute is: 15-29-23-11-10-14-1-28-20-3-22-4-8-5-6-9-24-30-7-12-26-19-13-18-17-16-2-25-27-21-15 Best Distance is 10467.745823851843</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:11</date>
+  <millis>1523832851485</millis>
+  <sequence>77</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:12</date>
+  <millis>1523832852081</millis>
+  <sequence>78</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 39 generation. Current bestRoute is: 30-7-3-25-2-5-17-16-27-13-19-4-6-12-9-28-1-11-18-15-23-20-10-14-29-22-21-8-24-26-30 Best Distance is 9855.360637152598</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:12</date>
+  <millis>1523832852081</millis>
+  <sequence>79</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:12</date>
+  <millis>1523832852823</millis>
+  <sequence>80</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 40 generation. Current bestRoute is: 5-17-10-20-14-1-28-2-16-27-15-18-3-4-22-24-8-30-9-13-11-25-23-6-26-7-21-29-19-12-5 Best Distance is 9076.193981832941</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:12</date>
+  <millis>1523832852823</millis>
+  <sequence>81</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:13</date>
+  <millis>1523832853595</millis>
+  <sequence>82</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 41 generation. Current bestRoute is: 23-1-21-7-26-8-30-28-13-24-4-22-29-3-9-20-19-6-5-2-16-15-14-10-11-27-17-12-25-18-23 Best Distance is 9468.767679434415</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:13</date>
+  <millis>1523832853595</millis>
+  <sequence>83</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:14</date>
+  <millis>1523832854313</millis>
+  <sequence>84</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 42 generation. Current bestRoute is: 20-11-4-22-3-15-23-25-1-14-21-13-28-10-8-24-18-26-16-2-27-6-12-17-29-7-19-5-9-30-20 Best Distance is 10318.404797841873</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:14</date>
+  <millis>1523832854313</millis>
+  <sequence>85</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:15</date>
+  <millis>1523832855088</millis>
+  <sequence>86</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 43 generation. Current bestRoute is: 20-14-10-1-5-2-16-18-13-17-28-27-6-19-21-23-15-7-3-26-12-9-11-29-24-30-8-22-4-25-20 Best Distance is 9628.386296910723</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:15</date>
+  <millis>1523832855088</millis>
+  <sequence>87</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:15</date>
+  <millis>1523832855793</millis>
+  <sequence>88</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 44 generation. Current bestRoute is: 5-11-21-18-15-23-28-27-16-2-6-3-7-24-20-13-1-14-9-10-17-19-12-25-26-30-22-4-29-8-5 Best Distance is 9832.773537773463</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:15</date>
+  <millis>1523832855793</millis>
+  <sequence>89</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 30 generation. 20-10-14-1-27-11-24-8-25-15-26-21-30-7-12-6-9-29-4-22-3-18-23-28-13-16-5-2-17-19-20 The best distance in history: 8992.077068473343</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:16</date>
+  <millis>1523832856521</millis>
+  <sequence>90</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 45 generation. Current bestRoute is: 27-16-2-17-6-12-13-9-19-5-18-15-23-26-7-21-4-30-20-1-14-10-8-11-25-28-24-22-29-3-27 Best Distance is 8661.734996065814</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:16</date>
+  <millis>1523832856522</millis>
+  <sequence>91</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 45 generation. 27-16-2-17-6-12-13-9-19-5-18-15-23-26-7-21-4-30-20-1-14-10-8-11-25-28-24-22-29-3-27 The best distance in history: 8661.734996065814</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:17</date>
+  <millis>1523832857127</millis>
+  <sequence>92</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 46 generation. Current bestRoute is: 15-18-26-7-19-9-13-22-10-1-14-11-6-28-23-25-17-16-2-27-12-5-30-24-8-4-29-21-20-3-15 Best Distance is 8780.222448975299</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:17</date>
+  <millis>1523832857127</millis>
+  <sequence>93</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 45 generation. 27-16-2-17-6-12-13-9-19-5-18-15-23-26-7-21-4-30-20-1-14-10-8-11-25-28-24-22-29-3-27 The best distance in history: 8661.734996065814</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:17</date>
+  <millis>1523832857859</millis>
+  <sequence>94</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 47 generation. Current bestRoute is: 8-10-14-1-22-26-20-9-24-25-2-16-27-18-3-21-13-28-11-4-30-12-15-23-19-7-29-6-5-17-8 Best Distance is 10781.988787168319</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:17</date>
+  <millis>1523832857860</millis>
+  <sequence>95</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 45 generation. 27-16-2-17-6-12-13-9-19-5-18-15-23-26-7-21-4-30-20-1-14-10-8-11-25-28-24-22-29-3-27 The best distance in history: 8661.734996065814</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:18</date>
+  <millis>1523832858567</millis>
+  <sequence>96</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 48 generation. Current bestRoute is: 20-13-19-6-12-17-23-7-4-25-15-3-26-21-9-18-16-27-5-24-8-22-29-10-1-14-28-11-30-2-20 Best Distance is 9965.273076953059</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:18</date>
+  <millis>1523832858567</millis>
+  <sequence>97</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 45 generation. 27-16-2-17-6-12-13-9-19-5-18-15-23-26-7-21-4-30-20-1-14-10-8-11-25-28-24-22-29-3-27 The best distance in history: 8661.734996065814</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:19</date>
+  <millis>1523832859350</millis>
+  <sequence>98</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 49 generation. Current bestRoute is: 3-7-21-26-24-19-9-15-23-8-22-4-29-18-6-27-12-13-14-10-30-20-1-11-17-5-2-16-28-25-3 Best Distance is 8404.580052940359</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:19</date>
+  <millis>1523832859350</millis>
+  <sequence>99</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 49 generation. 3-7-21-26-24-19-9-15-23-8-22-4-29-18-6-27-12-13-14-10-30-20-1-11-17-5-2-16-28-25-3 The best distance in history: 8404.580052940359</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:20</date>
+  <millis>1523832860070</millis>
+  <sequence>100</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 50 generation. Current bestRoute is: 8-24-29-14-10-1-16-27-2-17-22-4-19-20-30-26-23-7-9-5-6-28-3-12-25-18-15-21-11-13-8 Best Distance is 9366.938453247612</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:20</date>
+  <millis>1523832860070</millis>
+  <sequence>101</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 49 generation. 3-7-21-26-24-19-9-15-23-8-22-4-29-18-6-27-12-13-14-10-30-20-1-11-17-5-2-16-28-25-3 The best distance in history: 8404.580052940359</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:20</date>
+  <millis>1523832860623</millis>
+  <sequence>102</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 51 generation. Current bestRoute is: 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 Best Distance is 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:20</date>
+  <millis>1523832860623</millis>
+  <sequence>103</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:21</date>
+  <millis>1523832861125</millis>
+  <sequence>104</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 52 generation. Current bestRoute is: 25-11-20-13-19-12-7-22-29-26-21-16-2-17-27-5-24-28-8-15-18-23-4-9-3-14-1-10-6-30-25 Best Distance is 11140.769313057444</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:21</date>
+  <millis>1523832861134</millis>
+  <sequence>105</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:21</date>
+  <millis>1523832861839</millis>
+  <sequence>106</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 53 generation. Current bestRoute is: 6-17-29-4-8-22-24-30-20-25-15-23-26-18-3-12-21-19-16-2-13-27-10-14-1-28-5-9-7-11-6 Best Distance is 8847.93203469107</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:21</date>
+  <millis>1523832861840</millis>
+  <sequence>107</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:22</date>
+  <millis>1523832862467</millis>
+  <sequence>108</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 54 generation. Current bestRoute is: 4-29-21-18-25-12-17-27-16-2-26-15-23-3-5-14-13-28-9-30-24-20-19-6-22-8-7-10-1-11-4 Best Distance is 9126.836681641002</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:22</date>
+  <millis>1523832862467</millis>
+  <sequence>109</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:23</date>
+  <millis>1523832863186</millis>
+  <sequence>110</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 55 generation. Current bestRoute is: 25-15-23-18-10-12-21-8-30-19-26-9-22-4-7-24-1-14-29-3-13-11-28-27-16-2-5-17-6-20-25 Best Distance is 9689.266438479819</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:23</date>
+  <millis>1523832863186</millis>
+  <sequence>111</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:23</date>
+  <millis>1523832863660</millis>
+  <sequence>112</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 56 generation. Current bestRoute is: 10-11-16-2-17-5-28-21-26-23-6-25-27-3-18-15-9-8-7-13-14-1-20-24-30-4-22-29-19-12-10 Best Distance is 9621.48147905189</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:23</date>
+  <millis>1523832863663</millis>
+  <sequence>113</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 51 generation. 28-25-12-5-17-2-16-11-27-6-30-9-19-20-8-24-4-22-29-26-15-23-18-21-13-10-14-1-7-3-28 The best distance in history: 8318.784703018826</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:24</date>
+  <millis>1523832864267</millis>
+  <sequence>114</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 57 generation. Current bestRoute is: 12-28-27-5-16-2-17-14-10-1-13-7-19-30-20-9-23-15-4-29-11-6-3-8-24-22-21-26-18-25-12 Best Distance is 8234.049606240884</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:24</date>
+  <millis>1523832864267</millis>
+  <sequence>115</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 57 generation. 12-28-27-5-16-2-17-14-10-1-13-7-19-30-20-9-23-15-4-29-11-6-3-8-24-22-21-26-18-25-12 The best distance in history: 8234.049606240884</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:24</date>
+  <millis>1523832864979</millis>
+  <sequence>116</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 58 generation. Current bestRoute is: 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 Best Distance is 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:24</date>
+  <millis>1523832864979</millis>
+  <sequence>117</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:25</date>
+  <millis>1523832865648</millis>
+  <sequence>118</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 59 generation. Current bestRoute is: 9-5-18-24-8-30-21-10-14-1-27-16-2-12-15-20-23-29-4-22-11-28-17-6-13-25-19-26-7-3-9 Best Distance is 9314.49245546878</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:25</date>
+  <millis>1523832865648</millis>
+  <sequence>119</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:26</date>
+  <millis>1523832866183</millis>
+  <sequence>120</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 60 generation. Current bestRoute is: 21-30-9-11-6-28-27-16-2-17-5-8-23-15-19-10-29-4-22-24-3-12-25-18-14-13-1-20-26-7-21 Best Distance is 9220.21936079075</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:26</date>
+  <millis>1523832866183</millis>
+  <sequence>121</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:26</date>
+  <millis>1523832866818</millis>
+  <sequence>122</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 61 generation. Current bestRoute is: 27-2-16-17-14-10-1-28-3-19-12-5-13-7-18-21-9-4-22-29-15-23-26-30-8-11-24-20-25-6-27 Best Distance is 8685.054851747405</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:26</date>
+  <millis>1523832866818</millis>
+  <sequence>123</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:27</date>
+  <millis>1523832867544</millis>
+  <sequence>124</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 62 generation. Current bestRoute is: 8-24-11-28-13-27-16-2-29-4-22-20-19-25-6-12-15-23-21-26-14-1-10-3-18-7-9-30-5-17-8 Best Distance is 8748.138789705032</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:27</date>
+  <millis>1523832867544</millis>
+  <sequence>125</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868016</millis>
+  <sequence>126</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 63 generation. Current bestRoute is: 16-17-12-25-9-10-14-1-28-3-23-18-27-2-5-6-15-13-21-19-20-7-29-4-22-24-8-30-26-11-16 Best Distance is 9052.602677136932</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868017</millis>
+  <sequence>127</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868499</millis>
+  <sequence>128</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 64 generation. Current bestRoute is: 19-20-9-21-24-8-22-26-3-18-15-23-1-13-10-14-16-2-25-12-6-17-28-27-5-7-4-29-30-11-19 Best Distance is 7844.5966284173355</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868499</millis>
+  <sequence>129</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868959</millis>
+  <sequence>130</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 65 generation. Current bestRoute is: 1-14-22-24-8-10-19-18-28-13-30-9-12-25-15-26-21-11-3-6-5-27-16-2-17-4-29-23-7-20-1 Best Distance is 9235.438795768</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:28</date>
+  <millis>1523832868959</millis>
+  <sequence>131</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:29</date>
+  <millis>1523832869506</millis>
+  <sequence>132</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 66 generation. Current bestRoute is: 13-27-28-17-12-5-6-25-15-9-10-14-1-11-16-2-3-18-21-29-4-22-24-8-20-7-26-23-19-30-13 Best Distance is 7753.087255540305</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:29</date>
+  <millis>1523832869506</millis>
+  <sequence>133</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:29</date>
+  <millis>1523832869963</millis>
+  <sequence>134</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 67 generation. Current bestRoute is: 5-17-25-12-1-14-10-11-20-19-23-15-18-13-28-27-16-2-24-8-30-22-4-29-6-7-26-3-21-9-5 Best Distance is 7823.866685439656</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:29</date>
+  <millis>1523832869964</millis>
+  <sequence>135</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:30</date>
+  <millis>1523832870434</millis>
+  <sequence>136</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 68 generation. Current bestRoute is: 20-11-19-5-2-16-25-15-23-7-17-6-12-10-14-8-30-26-9-28-27-3-1-13-29-4-22-24-18-21-20 Best Distance is 9820.158787023378</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:30</date>
+  <millis>1523832870434</millis>
+  <sequence>137</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:30</date>
+  <millis>1523832870897</millis>
+  <sequence>138</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 69 generation. Current bestRoute is: 19-7-29-4-22-24-26-18-21-9-30-5-13-28-27-17-25-12-1-14-10-11-20-23-15-16-2-8-6-3-19 Best Distance is 8969.035920939717</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:30</date>
+  <millis>1523832870897</millis>
+  <sequence>139</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:31</date>
+  <millis>1523832871378</millis>
+  <sequence>140</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 70 generation. Current bestRoute is: 29-11-8-24-22-4-26-10-1-14-20-30-13-12-25-9-6-23-7-19-28-27-16-2-17-5-21-3-18-15-29 Best Distance is 8587.909114657255</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:31</date>
+  <millis>1523832871379</millis>
+  <sequence>141</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:31</date>
+  <millis>1523832871851</millis>
+  <sequence>142</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 71 generation. Current bestRoute is: 11-29-4-22-24-18-15-23-26-8-16-2-5-27-13-1-14-10-28-17-6-19-12-30-20-7-9-25-21-3-11 Best Distance is 9120.025129906873</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:31</date>
+  <millis>1523832871851</millis>
+  <sequence>143</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:32</date>
+  <millis>1523832872299</millis>
+  <sequence>144</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 72 generation. Current bestRoute is: 14-10-26-12-30-1-11-28-13-27-15-8-5-16-2-17-25-6-24-29-22-4-9-23-19-18-3-7-20-21-14 Best Distance is 10540.529948703857</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:32</date>
+  <millis>1523832872299</millis>
+  <sequence>145</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:32</date>
+  <millis>1523832872968</millis>
+  <sequence>146</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 73 generation. Current bestRoute is: 12-11-25-29-4-22-24-18-15-23-26-3-7-8-16-2-5-27-13-1-14-10-28-17-6-30-19-9-21-20-12 Best Distance is 8704.064406829086</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:32</date>
+  <millis>1523832872968</millis>
+  <sequence>147</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:33</date>
+  <millis>1523832873444</millis>
+  <sequence>148</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 74 generation. Current bestRoute is: 15-9-19-11-21-3-18-8-22-4-30-6-28-27-2-16-17-12-25-7-13-5-20-29-10-14-1-24-26-23-15 Best Distance is 9093.759446129625</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:33</date>
+  <millis>1523832873444</millis>
+  <sequence>149</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:33</date>
+  <millis>1523832873904</millis>
+  <sequence>150</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 75 generation. Current bestRoute is: 25-6-12-10-14-1-19-4-22-24-8-30-13-28-5-11-23-3-26-21-9-17-20-7-27-16-2-15-18-29-25 Best Distance is 9412.80566199615</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:33</date>
+  <millis>1523832873904</millis>
+  <sequence>151</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:34</date>
+  <millis>1523832874376</millis>
+  <sequence>152</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 76 generation. Current bestRoute is: 15-20-19-29-4-10-6-18-24-11-14-1-9-26-7-21-22-30-23-3-8-13-28-27-17-5-16-2-12-25-15 Best Distance is 9669.99859785504</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:34</date>
+  <millis>1523832874376</millis>
+  <sequence>153</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:34</date>
+  <millis>1523832874864</millis>
+  <sequence>154</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 77 generation. Current bestRoute is: 2-3-18-15-7-30-6-22-24-8-29-21-17-5-28-27-16-9-4-23-25-12-11-26-14-10-1-20-13-19-2 Best Distance is 10736.515966791103</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:34</date>
+  <millis>1523832874864</millis>
+  <sequence>155</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:35</date>
+  <millis>1523832875405</millis>
+  <sequence>156</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 78 generation. Current bestRoute is: 12-20-24-27-30-9-23-22-4-29-7-26-18-15-5-19-16-2-17-8-3-10-1-14-11-13-6-25-28-21-12 Best Distance is 10765.574874590639</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:35</date>
+  <millis>1523832875405</millis>
+  <sequence>157</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:35</date>
+  <millis>1523832875951</millis>
+  <sequence>158</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 79 generation. Current bestRoute is: 9-19-22-4-29-8-15-25-12-6-24-26-13-14-28-5-2-16-17-27-7-3-18-30-21-23-11-20-10-1-9 Best Distance is 9575.570117659006</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:35</date>
+  <millis>1523832875951</millis>
+  <sequence>159</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:36</date>
+  <millis>1523832876399</millis>
+  <sequence>160</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 80 generation. Current bestRoute is: 29-4-22-20-30-23-18-10-1-14-16-17-6-27-28-13-11-24-7-15-21-9-25-12-2-26-3-5-19-8-29 Best Distance is 9251.732496547</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:36</date>
+  <millis>1523832876399</millis>
+  <sequence>161</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:36</date>
+  <millis>1523832876952</millis>
+  <sequence>162</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 81 generation. Current bestRoute is: 15-23-13-9-14-10-1-28-27-12-8-19-24-22-4-29-26-7-21-20-5-6-3-18-25-30-2-16-17-11-15 Best Distance is 9619.319579986215</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:36</date>
+  <millis>1523832876952</millis>
+  <sequence>163</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:37</date>
+  <millis>1523832877568</millis>
+  <sequence>164</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 82 generation. Current bestRoute is: 7-18-15-20-19-25-29-4-22-24-8-13-5-28-26-21-30-10-1-14-27-2-16-17-6-11-9-23-3-12-7 Best Distance is 8314.539402083628</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:37</date>
+  <millis>1523832877568</millis>
+  <sequence>165</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:38</date>
+  <millis>1523832878389</millis>
+  <sequence>166</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 83 generation. Current bestRoute is: 10-1-13-5-6-25-17-7-23-9-28-27-16-15-20-3-19-11-30-26-29-4-22-24-2-21-18-8-14-12-10 Best Distance is 11139.352317408015</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:38</date>
+  <millis>1523832878389</millis>
+  <sequence>167</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:39</date>
+  <millis>1523832879094</millis>
+  <sequence>168</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 84 generation. Current bestRoute is: 6-12-3-25-15-7-24-30-22-4-17-19-23-18-29-8-9-21-26-20-10-14-1-27-16-2-5-28-13-11-6 Best Distance is 8433.791150761434</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:39</date>
+  <millis>1523832879094</millis>
+  <sequence>169</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:39</date>
+  <millis>1523832879686</millis>
+  <sequence>170</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 85 generation. Current bestRoute is: 8-19-21-20-13-6-27-16-2-26-5-17-12-25-11-28-3-7-18-15-29-4-22-24-30-10-1-14-9-23-8 Best Distance is 8733.549969530692</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:39</date>
+  <millis>1523832879686</millis>
+  <sequence>171</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:40</date>
+  <millis>1523832880279</millis>
+  <sequence>172</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 86 generation. Current bestRoute is: 22-8-7-20-18-21-30-10-1-14-13-23-6-9-11-28-26-24-15-19-27-12-16-5-2-17-3-29-4-25-22 Best Distance is 11324.545069053147</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:40</date>
+  <millis>1523832880279</millis>
+  <sequence>173</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:40</date>
+  <millis>1523832880984</millis>
+  <sequence>174</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 87 generation. Current bestRoute is: 29-4-15-24-8-22-26-23-18-9-21-7-14-13-3-5-27-16-2-17-6-12-11-10-1-19-25-20-30-28-29 Best Distance is 9299.75867009432</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:40</date>
+  <millis>1523832880984</millis>
+  <sequence>175</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:41</date>
+  <millis>1523832881476</millis>
+  <sequence>176</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The 88 generation. Current bestRoute is: 21-9-25-13-11-28-24-29-4-22-8-3-27-16-2-17-5-20-7-26-19-30-15-23-18-6-12-14-1-10-21 Best Distance is 8770.884423927808</message>
+</record>
+<record>
+  <date>2018-04-15T18:54:41</date>
+  <millis>1523832881476</millis>
+  <sequence>177</sequence>
+  <logger>tsp</logger>
+  <level>INFO</level>
+  <class>main.GeneticAlgorithm</class>
+  <method>logging</method>
+  <thread>1</thread>
+  <message>The best route in history: 58 generation. 28-16-2-17-6-5-27-14-1-10-11-13-12-25-29-24-20-15-3-18-23-4-22-8-30-19-9-7-26-21-28 The best distance in history: 7211.911326673595</message>
+</record>
+</log>
