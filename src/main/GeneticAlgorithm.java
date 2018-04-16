@@ -9,13 +9,15 @@ import java.util.logging.Logger;
 
 public class GeneticAlgorithm {
 
-    public static int popSize = 1000;
+    public static int popSize = 500;
     public static int geneSize = 30;
     public static int geneRange = 1000;
     public static int maxIterNum = 1000;
-    public static int stableGeneration = 30;
+    public static int stableGeneration = 50;
+    public static double surviveRate = 0.5;
     public static double crossoverRate = 0.8;
     public static double mutationRate = 0.1;
+
 
 
     public GeneticAlgorithm(int geneSize) {
@@ -96,7 +98,7 @@ public class GeneticAlgorithm {
 
     public static void main(String[] args) throws IOException {
 
-        logging();
+//        logging();
 
         Population p = new Population(popSize);
         double minDistance = Double.MAX_VALUE;
@@ -135,9 +137,9 @@ public class GeneticAlgorithm {
             }
             sb.append(p.getBestRoute(p.population).route.get(0).getId());
             System.out.println("The " + currentgeneration + " generation. Current bestDistance is " + bestDistance);
-            System.out.println("Curren bestRoute is: "+sb.toString());
+//            System.out.println("Curren bestRoute is: "+sb.toString());
             System.out.println("Best route in history: " + bestgeneration + " generation. Best distance in history: " + finalDistance);
-            System.out.println("Best route in history is "+ss);
+//            System.out.println("Best route in history is "+ss);
         }
     }
 

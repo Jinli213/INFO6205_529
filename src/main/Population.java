@@ -24,6 +24,8 @@ public class Population {
     public void evolution(){
 
         ArrayList<Chromosome> childrenRoutes = new ArrayList<>();
+        double copyRate = 0.5+(GeneticAlgorithm.crossoverRate/2);
+//        System.out.println(copyRate);
         while(childrenRoutes.size()<GeneticAlgorithm.popSize) {
             Chromosome parent1 = selectParent();
             Chromosome parent2 = selectParent();
@@ -31,12 +33,16 @@ public class Population {
             double random = Math.random();
             if(random<GeneticAlgorithm.crossoverRate) {
 
+                // Crossover and generate two children
                 List<Chromosome> children = Chromosome.crossover(parent1, parent2);
                 for (Chromosome chro : children) {
                     childrenRoutes.add(chro);
                 }
             }
-            else if(random<0.9){
+
+            //copy the chromosome(route) from one of parents
+
+            else if(random<copyRate){
                 childrenRoutes.add(parent1);
             }
             else{
@@ -62,7 +68,7 @@ public class Population {
 
     private Chromosome selectParent() {
 
-        int random = (int) (Math.random()*GeneticAlgorithm.popSize/2);
+        int random = (int) (Math.random()*GeneticAlgorithm.popSize*GeneticAlgorithm.surviveRate);
         return sortRoute(population).get(random);
     }
 
